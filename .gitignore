@@ -1,0 +1,12 @@
+# Node modules (Frontend dependencies)
+node_modules/
+
+# Python cache and virtual environments (Backend dependencies)
+__pycache__/
+.venv/
+
+# Environment variables (Never commit secrets!)
+.env
+
+# OS generated files
+.DS_Store
