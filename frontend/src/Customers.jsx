@@ -35,7 +35,7 @@ function Customers() {
   const handleSubmit = async (e) => {
     e.preventDefault(); 
 
-    // NEW: Check for duplicate phone numbers before sending to the backend
+    //Check for duplicate phone numbers before sending to the backend
     const isDuplicatePhone = customers.some(
       (customer) => customer.phone === formData.phone
     );
